@@ -7,6 +7,7 @@ import { Profile } from "./pages/profile";
 import { Alert } from "./components/alert";
 import { AlertState } from "./context/alert/alertState";
 import { GihubState } from "./context/github/githubState";
+
 function App() {
   return (
     <GihubState>

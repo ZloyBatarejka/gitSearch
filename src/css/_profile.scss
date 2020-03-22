@@ -1,0 +1,30 @@
+.profile {
+  &__img {
+    max-width: 100%;
+  }
+
+  &__bio {
+    font-size: 24px;
+  }
+  &__list {
+    list-style: none;
+    padding: 0px;
+  }
+  &__item {
+    margin-top: 10px;
+  }
+  &__badges {
+    .badge {
+      margin: 5px;
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    &__badges {
+      flex-direction: column;
+    }
+  }
+}
